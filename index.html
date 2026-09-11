@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Romulo Rosa | Front-End">
+  <meta name="description" content="Landing page do Guilherme Padeiro, com produtos artesanais e experiências de panificação.">
+  <title>Guilherme Padeiro | Pães artesanais</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="logo">
+      <a href="#inicio" aria-label="Guilherme Padeiro - página inicial">Guilherme Padeiro</a>
+    </h1>
+
+    <nav class="main-navigation" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero" aria-labelledby="hero-title">
+      <article class="hero-content">
+        <p class="eyebrow">Pães artesanais • Feitos com tempo</p>
+        <h2 id="hero-title">O sabor de um pão feito para transformar o seu dia.</h2>
+        <h3>Receitas artesanais, ingredientes selecionados e aquele aroma que lembra casa.</h3>
+        <a class="button button-primary" href="#produtos">Conheça nossos pães</a>
+      </article>
+
+      <figure class="hero-image">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=85" alt="Pães artesanais dourados sobre uma mesa">
+        <figcaption>Produção artesanal todos os dias.</figcaption>
+      </figure>
+    </section>
+
+    <section class="about section" id="sobre" aria-labelledby="about-title">
+      <article class="about-content">
+        <p class="section-label">Nossa história</p>
+        <h2 id="about-title">Da massa à mesa, tudo começa com cuidado.</h2>
+        <p>
+          O Guilherme Padeiro nasceu da paixão por receitas simples, fermentação
+          cuidadosa e ingredientes de qualidade. Cada fornada é preparada em
+          pequenos lotes para entregar textura, aroma e sabor.
+        </p>
+        <p>
+          Nosso trabalho valoriza o artesanal sem abrir mão de uma experiência
+          moderna, acolhedora e acessível.
+        </p>
+        <a class="text-link" href="#contato">Fale com a gente</a>
+      </article>
+
+      <aside class="about-highlight" aria-label="Destaques da padaria">
+        <p class="highlight-number">100%</p>
+        <p class="highlight-text">produção artesanal</p>
+      </aside>
+    </section>
+
+    <section class="products section" id="produtos" aria-labelledby="products-title">
+      <header class="section-header">
+        <p class="section-label">Nossos favoritos</p>
+        <h2 id="products-title">Escolha o seu próximo sabor.</h2>
+        <p>Uma seleção de receitas para acompanhar o café, o almoço ou aquele momento especial.</p>
+      </header>
+
+      <section class="card-grid" aria-label="Produtos em destaque">
+        <article class="product-card">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=700&q=85" alt="Pão artesanal crocante">
+            <figcaption>Clássico artesanal</figcaption>
+          </figure>
+          <p class="card-number">01</p>
+          <h3>Pão de fermentação natural</h3>
+          <p>Casca crocante, miolo macio e sabor desenvolvido com fermentação lenta.</p>
+          <a class="text-link" href="#contato">Quero experimentar</a>
+        </article>
+
+        <article class="product-card product-card-featured">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1585478259715-876acc5be8eb?auto=format&fit=crop&w=700&q=85" alt="Croissant artesanal recém-assado">
+            <figcaption>Favorito da casa</figcaption>
+          </figure>
+          <p class="card-number">02</p>
+          <h3>Croissant dourado</h3>
+          <p>Camadas delicadas, manteiga e acabamento dourado para um café especial.</p>
+          <a class="text-link" href="#contato">Quero experimentar</a>
+        </article>
+
+        <article class="product-card">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=700&q=85" alt="Pão recheado servido em uma mesa">
+            <figcaption>Receita especial</figcaption>
+          </figure>
+          <p class="card-number">03</p>
+          <h3>Pão recheado da semana</h3>
+          <p>Uma receita diferente a cada semana para descobrir novos sabores.</p>
+          <a class="text-link" href="#contato">Quero experimentar</a>
+        </article>
+      </section>
+    </section>
+
+    <section class="gallery section" id="galeria" aria-labelledby="gallery-title">
+      <header class="section-header">
+        <p class="section-label">Por dentro da fornada</p>
+        <h2 id="gallery-title">Um pouco do nosso dia.</h2>
+      </header>
+
+      <section class="gallery-grid" aria-label="Galeria de imagens da produção">
+        <figure class="gallery-item gallery-item-large">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1100&q=85" alt="Variedade de pães artesanais">
+          <figcaption>Pães recém-saídos do forno</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=700&q=85" alt="Pão artesanal em detalhe">
+          <figcaption>Textura e crocância</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=700&q=85" alt="Pessoa preparando massa de pão">
+          <figcaption>Preparo manual</figcaption>
+        </figure>
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=700&q=85" alt="Pães dourados em uma cesta">
+          <figcaption>Fornada do dia</figcaption>
+        </figure>
+      </section>
+    </section>
+
+    <section class="contact section" id="contato" aria-labelledby="contact-title">
+      <article class="contact-content">
+        <p class="section-label">Vamos conversar</p>
+        <h2 id="contact-title">Seu próximo pão favorito pode estar a uma mensagem de distância.</h2>
+        <p>Entre em contato para conhecer o cardápio, fazer uma encomenda ou acompanhar as novidades.</p>
+        <a class="button button-secondary" href="mailto:contato@guilhermepadeiro.com">Enviar mensagem</a>
+      </article>
+
+      <aside class="contact-links" aria-label="Canais de contato">
+        <h3>Encontre a gente</h3>
+        <ul>
+          <li><a href="mailto:contato@guilhermepadeiro.com">E-mail</a></li>
+          <li><a href="https://www.instagram.com/" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.facebook.com/" rel="noopener noreferrer">Facebook</a></li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Guilherme Padeiro. Desenvolvido por Romulo Rosa | Front-End.</p>
+    <nav aria-label="Navegação complementar">
+      <ul>
+        <li><a href="#inicio">Voltar ao início</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
