@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" role="img" aria-labelledby="title desc">
+  <title id="title">Guilherme Padeiro</title>
+  <desc id="desc">Logo Guilherme Padeiro com espigas de trigo</desc>
+  <g fill="none" stroke="#e9a800" stroke-width="4" stroke-linecap="round">
+    <path d="M168 20 C185 13, 215 13, 232 20"/>
+    <path d="M196 26 C187 20, 178 17, 168 16"/>
+    <path d="M204 26 C213 20, 222 17, 232 16"/>
+    <path d="M200 16 L200 31"/>
+  </g>
+  <text x="200" y="57" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-style="italic" font-weight="700" fill="#241b10">Guilherme</text>
+  <text x="200" y="84" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="#241b10">Padeiro</text>
+</svg>
